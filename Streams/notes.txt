@@ -1,0 +1,11 @@
+Streams are objects that let you read data from a source or write data to a destination in continuous fashion
+Each type of Stream is an EventEmitter instance and throws several events at different instance of times.
+
+data: This event is fired when there is data is available to read.
+
+end: This event is fired when there is no more data to read.
+
+error: This event is fired when there is any error receiving or writing data.
+
+finish: This event is fired when all the data has been flushed to underlying system.
+
