@@ -1,0 +1,9 @@
+__filename: The __filename represents the filename of the code being executed.
+
+__dirname: Name of the directory that the currently executing script resides in.
+
+setTimeout(cb, ms): used to run callback cb after at least ms milliseconds.
+
+clearTimeout(t): used to stop a timer that was previously created with setTimeout()
+
+setInterval(cb, ms): used to run callback cb repeatedly after at least ms milliseconds
